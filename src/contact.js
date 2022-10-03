@@ -38,17 +38,17 @@ return(
         <div className="lg:grid lg:grid-cols-2">
             <div className='md:row md:border-r'>
                 <div className='flex mx-auto mt-6 md:ml-8 w-11/12'>
-                    <img className='h-10 mr-2' src={linkedIn}></img>
+                    <img className='h-10 mr-2' alt='icon for linkedIn' src={linkedIn}></img>
                     <h1 className='text-white bg-gray-800 my-auto mr-2 font-gilroy-light  w-10/12 md:w-full p-1 text-center
                     border border-white'><a href='https://www.linkedin.com/in/stevan-grubac/'>https://www.linkedin.com/in/stevan-grubac/</a></h1>
                 </div>
                 <div className='flex mx-auto mt-6 md:ml-8  w-11/12'>
-                    <img className='h-12 mr-2' src={github}></img>
+                    <img className='h-12 mr-2' alt='icon for Github' src={github}></img>
                     <h1 className='text-white bg-gray-800 my-auto mr-2 font-gilroy-light  w-full p-1 text-center
                     border border-white'><a href='https://github.com/podop29'>https://github.com/podop29</a></h1>
                 </div>
                 <div className='flex mx-auto mt-6 mb-8 md:ml-8  w-11/12 '>
-                    <img className='h-12 mr-2' src={phone}></img>
+                    <img className='h-12 mr-2' alt='icon for phone ' src={phone}></img>
                     <h1 className='text-white bg-gray-800 my-auto mr-2 font-gilroy-light w-full p-1 text-center
                     border border-white'>(586)-265-1685</h1>
                 </div>

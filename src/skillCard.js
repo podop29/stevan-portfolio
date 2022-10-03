@@ -11,7 +11,7 @@ function SkillCard ({title, skills}){
                 </div>
                 
                 {skills.map((skill)=>(
-                    <div className="text-center text-lg font-gilroy-regular">
+                    <div key={skill} className="text-center text-lg font-gilroy-regular">
                         {skill}
                     </div>
                 ))}

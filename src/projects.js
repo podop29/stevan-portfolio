@@ -28,7 +28,7 @@ return(
                 </p>
             </div>
             <div>
-            <img className=" relative bg-gray-800 rounded-md mx-auto h-auto md:h-64" src={rhymeTimeGif}></img>
+            <img className=" relative bg-gray-800 rounded-md mx-auto h-auto md:h-64" alt='gif shows rhymetime' src={rhymeTimeGif}></img>
             <h1 className="text-lg text-center hover:cursor-pointer mt-4">
                 <a className="underline hover:cursor-pointer relative" href="http://rhymetime.online/">Live Link</a>&#160;
                 | <a className="underline hover:cursor-pointer relative" href="https://github.com/podop29/cocktail">Github</a></h1>
@@ -38,7 +38,7 @@ return(
 
         <div className="text-white md:grid md:grid-cols-2 mx-auto pb-10">
         <div>
-            <img className="relative bg-gray-800 rounded-md mx-auto" src={cocktailGif}></img>
+            <img className="relative bg-gray-800 rounded-md mx-auto" alt='gif shows mixology' src={cocktailGif}></img>
             <h1 className="text-lg text-center hover:cursor-pointer mt-4">
                 <a className="underline hover:cursor-pointer relative" href="https://mixology-cocktail.herokuapp.com/">Live Link</a>&#160;
                  | <a className="underline hover:cursor-pointer relative" href="https://github.com/podop29/RhymingGame-Frontend">Github</a></h1>
@@ -65,7 +65,7 @@ return(
                 </p> 
             </div>
             <div>
-            <img className="relative bg-gray-800 rounded-md mx-auto md:h-72" src={PremeDET}></img>
+            <img className="relative bg-gray-800 rounded-md mx-auto md:h-72" alt='Pic of PremeDet' src={PremeDET}></img>
             <h1 className="text-lg text-center hover:cursor-pointer mt-4">
                 <a className="underline hover:cursor-pointer relative" href="http://premedet.com/">Live Link</a></h1>
             </div>
