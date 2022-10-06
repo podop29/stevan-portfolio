@@ -39,7 +39,7 @@ return(
             <div className='md:row md:border-r'>
                 <div className='flex mx-auto mt-6 md:ml-8 w-11/12'>
                     <img className='h-10 mr-2' alt='icon for linkedIn' src={linkedIn}></img>
-                    <h1 className='text-white bg-gray-800 my-auto mr-2 font-gilroy-light  w-10/12 md:w-full p-1 text-center
+                    <h1 className='text-white bg-gray-800 my-auto mr-2 font-gilroy-light  w-10/12 md:w-full p-1 text-center overflow-hidden
                     border border-white'><a href='https://www.linkedin.com/in/stevan-grubac/'>https://www.linkedin.com/in/stevan-grubac/</a></h1>
                 </div>
                 <div className='flex mx-auto mt-6 md:ml-8  w-11/12'>

@@ -32,7 +32,7 @@ function SkillsSection(){
 
             </div>
 
-            <div className="relative md:grid md:grid-cols-3 w-8/12 mx-auto bg-transparent mb-16">
+            <div className="relative md:grid md:grid-cols-3 w-8/12 mx-auto bg-transparent md:mb-16">
                 <div className="w-full md:w-6/12 mx-auto flex bg-transparent mt-2 justify-center">
                     <img alt="JavaScript Icon " className="h-12" src={jsIcon}></img>
                     <img alt="React Icon " className="h-12" src={reactIcon}></img>
@@ -58,7 +58,7 @@ function SkillsSection(){
                 </div>
 
             </div>
-            <div className="relative w-full md:w-2/6 mx-auto ">
+            <div className="hidden md:block relative  w-full  md:w-2/6 mx-auto ">
                 <h1 className="text-center text-2xl font-gilroy-bold text-white mb-6 ">See my Resume</h1>
                 <iframe title="Pdf for my resume" className="mx-auto w-auto md:w-full" src="https://drive.google.com/file/d/1YiZqFx_9Bow1h78DgStC6dWwPRsBoKnP/preview" height="500"></iframe>
             </div>

@@ -51,7 +51,7 @@ const particlesLoaded = useCallback(async (container) => {
       <AboutMe/>
       <div className="bg-gradient-to-b from-white to-gray-800 pt-52">
       
-      <h1 className="relative text-center mb-2 text-4xl font-gilroy-bold text-violet-500 w-1/3 mx-auto bg-transparent p-2 pt-40">Skills</h1>
+      <h1 className="relative text-center mb-2 text-4xl font-gilroy-bold text-violet-500 w-1/3 mx-auto bg-transparent p-2 pt-16">Skills</h1>
       <SkillsSection/>
       </div>
 
