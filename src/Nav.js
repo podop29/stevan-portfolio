@@ -73,14 +73,14 @@ function Nav() {
             {open ? "x" : "="}
             </div>
             <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1]
-            left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in 
+            left-0 w-full md:w-auto md:pl-0 pl-9 transition-color duration-500 
             ${open ? 'top-15 opacity-100':'top-[-490px]'} md:opacity-100
             ${navBarBlack ? "bg-black" : navBarGray ? "bg-gray-300" : "bg-white"} `}>
                 {
                     links.map((link)=>(
                         <li key={link.name} className="md:ml-8 font-gilroy-bold text-xl md:my-0 my-7">
                             <Link to={link.link} spy={true} smooth={true} offset={-200} duration={500}
-                            className={`text-${navBar} hover:border-${navBar} hover:cursor-pointer hover:border-2 rounded-sm p-1 hover:p-2 duration-200 `}>
+                            className={`text-${navBar}  hover:border-${navBar}  hover:cursor-pointer hover:border-2 rounded-sm p-1 hover:p-2 duration-200 `}>
                             {link.name}
                             </Link>
                         </li>

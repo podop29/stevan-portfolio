@@ -32,7 +32,8 @@ function SkillsSection(){
 
             </div>
 
-            <div className="relative md:grid md:grid-cols-3 w-8/12 mx-auto bg-transparent md:mb-16">
+            <div className="relative md:grid md:grid-cols-3 w-8/12 mx-auto p-2 md:mb-16
+            bg-gray-400 rounded-xl shadow-xl ">
                 <div className="w-full md:w-6/12 mx-auto flex bg-transparent mt-2 justify-center">
                     <img alt="JavaScript Icon " className="h-12" src={jsIcon}></img>
                     <img alt="React Icon " className="h-12" src={reactIcon}></img>
