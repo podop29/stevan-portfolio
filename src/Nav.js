@@ -79,7 +79,7 @@ function Nav() {
                 {
                     links.map((link)=>(
                         <li key={link.name} className="md:ml-8 font-gilroy-bold text-xl md:my-0 my-7">
-                            <Link to={link.link} spy={true} smooth={true} offset={-200} duration={500}
+                            <Link to={link.link} spy={true} smooth={true} offset={-150} duration={500}
                             className={`text-${navBar}  hover:border-${navBar}  hover:cursor-pointer hover:border-2 rounded-sm p-1 hover:p-2 duration-200 `}>
                             {link.name}
                             </Link>

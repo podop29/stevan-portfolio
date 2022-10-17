@@ -18,13 +18,10 @@ return(
         <div  className=" text-white md:grid md:grid-cols-2 mx-auto pb-10">
             <div className=" relative bg-gray-800 w-full md:w-8/12 mx-auto  text-left mb-3 md:mb-32">
                 <h1 className="text-4xl pb-2 relative font-gilroy-bold">RhymeTime Game</h1>
-                <p className="font-gilroy-medium">Rhyme Time is a Full Stack Web App built using React, Tailwind, on the frontend. Express, Node, PostgreSQL, on the backend.
-                <br/>
-                Features include registering for an account, Choosing from and playing three game types, with three different
-                difficulties, and a multiplayer online game against friends. 
-                <br/>
-                Once you make an account you can add friends and challenge them to games. Game stats are saved and added
-                to the users profile using a node.js backend with PostgreSQL as the database.
+                <p className="font-gilroy-medium">
+                Rhyme Time is a full stack web app built using React, Tailwind, on the frontend;  Express, Node, PostgreSQL, on the backend.
+                Features include registering for an account, choosing from and playing three game types, with three different difficulties, and a multiplayer online game against friends.
+                Once you create an account you can add friends and challenge them to games. Game stats are saved and added to the user's profile using a node.js backend with PostgreSQL as the database.
                 </p>
             </div>
             <div>
@@ -59,9 +56,7 @@ return(
         <div  className="text-white md:grid md:grid-cols-2 mx-auto pb-10 mt-32">
             <div className="relative bg-gray-800 w-full md:w-8/12 mx-auto text-left mb-2 ">
                 <h1 className="text-4xl pb-2 font-gilroy-bold ">PremeDET Product Showcase</h1>
-                <p className="font-gilroy-medium">This is a freelance project i made for a amazon retailer that wanted a website that shows all the products
-                    hes currently selling and updates them in real time.
-                Built in React and Tailwind and using Axios to make API calls to update his storefront.
+                <p className="font-gilroy-medium">This is a freelance project I made for an Amazon retailer who wanted a website that shows all the products he's currently selling and updates them in real time. Built in React and Tailwind and using Axios to make API calls to update his storefront.
                 </p> 
             </div>
             <div>
